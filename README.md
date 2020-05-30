@@ -1,8 +1,10 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/cloudyrock/mongock/master/misc/logo.png" width="200" />
+    <img src="https://raw.githubusercontent.com/cloudyrock/mongock/logo_temp/misc/logo.png" width="200" />
 </p>
+<h4 align="center">
+MongoDB version control tool for Java
+</h4>
 
-# Mongock: MongoDB version control tool for Java
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.cloudyrock.mongock/mongock/badge.png)](https://search.maven.org/artifact/com.github.cloudyrock.mongock/mongock)
 ![Build](https://github.com/cloudyrock/mongock/workflows/Build/badge.svg)
