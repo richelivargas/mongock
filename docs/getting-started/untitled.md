@@ -2,7 +2,7 @@
 
 ##   Some feature![](../.gitbook/assets/screenshot-2020-06-15-at-19.11.29.png)
 
-|  | Community Edition | Pro Edition  | Enterprise edition |
+|  | **Community Edition** | **Pro Edition**  | **Enterprise edition** |
 | :--- | :---: | :---: | :---: |
 | Some feature with long  text, lets see what happens | ✅  | ✅  | ✅  |
 | [asdasd](https://dieppa.gitbook.io/mongock/pricing) | ❌  | ✅  | ✅  |
