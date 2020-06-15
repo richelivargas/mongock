@@ -14,5 +14,6 @@
   * [Spring](documentation/building-mongock/spring.md)
   * [Standalone](documentation/building-mongock/standalone.md)
 * [Untitled](documentation/untitled-3.md)
-* [Untitled](documentation/untitled-4.md)
+* [Previous versions](documentation/untitled-4/README.md)
+  * [Version 3.x](documentation/untitled-4/version-3.x.md)
 
