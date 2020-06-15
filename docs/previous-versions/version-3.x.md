@@ -1,7 +1,5 @@
 # Version 3.x
 
-![](https://raw.githubusercontent.com/cloudyrock/mongock/master/misc/logo-new.png)
-
 **Mongock** is a java MongoDB tool for tracking, managing and applying database schema changes accross all your environments based on a coding approach.
 
 ## Last news ‼ ‼ 💥 💥 
