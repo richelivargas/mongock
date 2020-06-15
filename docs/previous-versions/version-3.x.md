@@ -1,7 +1,5 @@
 # Version 3.x
 
-**Mongock** is a java MongoDB tool for tracking, managing and applying database schema changes accross all your environments based on a coding approach.
-
 ## Last news ‼ ‼ 💥 💥 
 
 {% hint style="success" %}
@@ -11,21 +9,6 @@
 {% hint style="success" %}
 **We are working on version 4!!**...Take a look to [this example](https://github.com/cloudyrock/mongock-integration-tests/tree/master/mongock-spring-v5/mongock-spring5-springdata3-it) and give the version **4.0.8.alpha** a try
 {% endhint %}
-
-## Why Mongock
-
-There are several good reasons to use Mongock in your project. Here we give you some of them:
-
-* Solid solution which really works.
-* **Works well with sharded collections**: Unlike other similar projects using javascript, which requires `db.eval()`. [Documentation](https://docs.mongodb.com/manual/reference/method/db.eval/#sharded-data)
-* Works with [Mongo Atlas](https://www.mongodb.com/cloud/atlas).
-* Distributed solution with solid locking mechanism.
-* We are very responsive for community license and maximum 2 business days for professional license.
-* Well maintained and regularly updated.
-* Used by several tech companies in different industries.
-* Can be used together with most, if not all, frameworks.
-* Provides great integration for [Spring](https://spring.io/), allowing you to inject any dependency you want to your changeLog method.
-* We walk with you to production. Get more information about our support model at dev@cloudyrock.io
 
 ## Contributing
 
