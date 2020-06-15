@@ -2,6 +2,10 @@
 
 * [What is Mongock?](README.md)
 
+## Getting started
+
+* [Untitled](getting-started/untitled.md)
+
 ## Documentation 4.x <a id="documentation"></a>
 
 * [How it works](documentation/how-it-works.md)
@@ -19,4 +23,5 @@
 ## Previous versions
 
 * [Version 3.x](previous-versions/version-3.x.md)
+* [Pricing](pricing.md)
 
