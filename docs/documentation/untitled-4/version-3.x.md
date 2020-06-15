@@ -4,56 +4,15 @@
 
 **Mongock** is a java MongoDB tool for tracking, managing and applying database schema changes accross all your environments based on a coding approach.
 
-## LAST NEWS :bangbang::bangbang::collision::collision:
+## Last news ‼ ‼ 💥 💥 
 
-> **3.3.2 is released with minor bux fixes**
->
-> **We are working on version 4!!**...Take a look to [this example](https://github.com/cloudyrock/mongock-integration-tests/tree/master/mongock-spring-v5/mongock-spring5-springdata3-it) and give the version **4.0.8.alpha** a try
+{% hint style="success" %}
+**3.3.2** is released with minor bug fixes
+{% endhint %}
 
-## Table of contents
-
-* [Why Mongock]()
-* [Sample projects]()
-* [Contributing]()
-* [Roadmap]()
-  * [Version 4.0.0]()
-  * \[What's up next\]\(\#What's-up-next\)
-* [Add a dependency]()
-  * [With Maven]()
-  * [With Gradle]()
-* [Key concepts]()
-* [How it works]()
-* [Creating change logs]()
-  * [@ChangeLog]()
-  * [@ChangeSet]()
-    * [Annotation parameters:]()
-    * [Defining ChangeSet methods]()
-    * [Defining ChangeSet methods with versions\(\)]()
-      * [When use...]()
-  * [When use Mongock standalone]()
-  * [When use SpringMongock]()
-  * [When use SpringBootMongock]()
-    * [Build parameters]()
-  * [Common build parameters]()
-  * [SpringMongock build parameters]()  
-  * [SpringBootMongock build parameters]()    
-    * [Build and run]()
-  * [Build and run standalone]()
-  * [Build and run SpringMongock]()
-  * [Build and run SpringBootMongock]()
-* [Spring specific features]()
-  * [Injecting custom dependencies with Spring Boot]()
-  * [Using Spring profiles]()
-    * [Annotating ChangeLogs and ChangeSets with Profile]()
-    * [Enabling Profile annotation on Mongock]()
-* [Adding metadata]()
-* [Configuring Lock]()
-* [Parallel process]()
-* [Known issues]()
-  * [Mongo java driver conflicts]()
-  * [Mongo transaction limitations]()
-* [Code of conduct]()
-* [LICENSE]()
+{% hint style="success" %}
+**We are working on version 4!!**...Take a look to [this example](https://github.com/cloudyrock/mongock-integration-tests/tree/master/mongock-spring-v5/mongock-spring5-springdata3-it) and give the version **4.0.8.alpha** a try
+{% endhint %}
 
 ## Why Mongock
 
@@ -67,67 +26,12 @@ There are several good reasons to use Mongock in your project. Here we give you 
 * Well maintained and regularly updated.
 * Used by several tech companies in different industries.
 * Can be used together with most, if not all, frameworks.
-* Provides great integration for [Spring](https://spring.io/), allowing you to inject any dependency you want to your changelog method.
+* Provides great integration for [Spring](https://spring.io/), allowing you to inject any dependency you want to your changeLog method.
 * We walk with you to production. Get more information about our support model at dev@cloudyrock.io
-
-## Sample projects
-
-> **Note:** Sample projects are not updated. We are working to have them updated as soon as possible.
-
-In [here](https://github.com/cloudyrock/mongock-integration-tests/tree/master/mongock-spring-v5/mongock-spring5-springdata3-it) you can find some sample projects that show you how to use Mongock.
 
 ## Contributing
 
 If you would like to contribute to Mongock project, please read [how to contribute](community/CONTRIBUTING.md) for details on our collaboration process and standards.
-
-## Roadmap
-
-### Version 4.0.0
-
-**we are working on it!!**
-
-```diff
-> Green means already available in last 4.0.X.alpha version
-! Orange means partially available in last 4.0.X.alpha version
-```
-
-```diff
-+ Support for Mongodb driver sync 4
-+ Support for Spring data 3
-+ Non-fail-fast changeSets
-+ Be able to use Spring Data repository safely with the lock in ChangeSets
-+ Custom injections in Spring via context covered by Lock meachanism
-+ Spring integration via @EnableMongock annotation
-! Richer data in changelogCollection
-```
-
-* Transaction support
-* Migration validation
-* Migration recovery
-* Undo migrations
-* Allow multiple changeLog packages
-* Custom injections in Standalone covered by Lock meachanism
-* Re-branded documentation supporting several Mongock\(and mongodb driver\) version
-* Migration from Mongobee
-
-### What's up next
-
-* Better and more information in changeLog collection
-* Spring Rest endpoint to retrieve migration data
-* Spring Html endpoint to retrieve migration report
-* Scheduled migration
-* Alerts
-* Professional support
-* Parallel process
-* Spring Expression language support in Profiles
-* Be able to use spring properties to replace builder 
-* Reactive support
-* Json migration
-* Dry run
-* Centralized server
-* Command cli
-* Other NoSql support
-* UI 
 
 ## Add a dependency
 
@@ -309,7 +213,7 @@ As mentioned, it's recommended when you are running an standalone java applicati
 
 ### When use SpringMongock
 
-This is a specialization of Mongock for [Spring](https://spring.io/) users. SpringMongock runner implements the interface [InitializingBean](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/InitializingBean.html) provided by [Spring](https://spring.io/). So by instantiating the Mongock runner as singleton bean in the spring context, the framework will take care of the dependencies and will execute at startup.
+This is a specialisation of Mongock for [Spring](https://spring.io/) users. SpringMongock runner implements the interface [InitializingBean](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/InitializingBean.html) provided by [Spring](https://spring.io/). So by instantiating the Mongock runner as singleton bean in the spring context, the framework will take care of the dependencies and will execute at startup.
 
 By using SpringMongock you can also take advantage of the Spring Profile's benefits and, if using MongoTemplate, all the SpringData features are implicitly provided.
 
