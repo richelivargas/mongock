@@ -23,5 +23,4 @@
 ## Previous versions
 
 * [Version 3.x](previous-versions/version-3.x.md)
-* [Pricing](pricing.md)
 
