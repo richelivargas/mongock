@@ -2,7 +2,7 @@
 
 * [What is Mongock?](README.md)
 
-## Documentation
+## Documentation 4.x <a id="documentation"></a>
 
 * [How it works](documentation/how-it-works.md)
 * [Quick start](documentation/quick-start/README.md)
@@ -14,6 +14,9 @@
   * [Spring](documentation/building-mongock/spring.md)
   * [Standalone](documentation/building-mongock/standalone.md)
 * [Untitled](documentation/untitled-3.md)
-* [Previous versions](documentation/untitled-4/README.md)
-  * [Version 3.x](documentation/untitled-4/version-3.x.md)
+* [Previous versions](documentation/untitled-4.md)
+
+## Previous versions
+
+* [Version 3.x](previous-versions/version-3.x.md)
 
