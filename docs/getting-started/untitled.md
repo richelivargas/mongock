@@ -5,7 +5,7 @@
 |  | **Community Edition** | **Pro Edition**  | **Enterprise edition** |
 | :--- | :---: | :---: | :---: |
 | Some feature with long  text, lets see what happens | ✅  | ✅  | ✅  |
-| [asdasd](https://dieppa.gitbook.io/mongock/pricing) |   | ✅  | ✅  |
+| [asdasd](https://dieppa.gitbook.io/mongock/pricing) |  ❔  | ✅  | ✅  |
 | Some other feature 2 |   | ✅  | ✅  |
 | Some other feature 3 |   |  | ✅  |
 | Some other feature 4 |   |  | ✅  |
